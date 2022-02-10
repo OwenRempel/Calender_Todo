@@ -60,7 +60,7 @@ if(isset($_GET['url'])){
             if(isset($_SESSION['Notify_error']) and $_SESSION['Notify_error'] == 1){
                 $color = ' error"';
             }elseif(isset($_SESSION['Notify_error']) and $_SESSION['Notify_error'] == 0){
-                $color = ' sucess"';
+                $color = ' sucCess"';
             }
             echo '<div class="notify '.$color.'">'.$_SESSION['Notify'].' </div>';
             unset($_SESSION['Notify']);
