@@ -1,0 +1,96 @@
+.error{
+    width: 20vw;
+    /* margin: auto; */
+    text-align: center;
+    background-color: #F44336;
+    padding: 0px 40px;
+    position: absolute;
+    top: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.login {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 17vh;
+    background-color: #eef3fb00;
+    padding: 80px 20px;
+    box-shadow: 50px 0px 30px -56px black, -54px 0px 30px -60px black;
+}
+
+.logologin {
+    width: 40%;
+    margin: auto;
+    opacity: .5;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    
+}
+
+.error{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    background-color: #F44336;
+    padding: 1px 40px;
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.input-field {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-field input {
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+.input-field>label {
+    color: #9e9e9e;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    cursor: text;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.blue {
+    background-color: #2196F3 !important;
+}

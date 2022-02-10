@@ -1,0 +1,136 @@
+select{
+    display: block;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+}
+select:active{
+    border-bottom: 1px solid #9e9e9e;
+}
+select:focus{
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #9e9e9e;
+}
+.datepicker-select{
+    display: none;
+}
+
+.menu {
+    position: fixed;
+    bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+}
+.menu-icon{
+    margin-top: 5px;
+}
+.menu-wide{
+    min-width: 90px;
+}
+.header {
+    text-align: center;
+    background: #1565c078;
+    padding: 10px 0px 5px 0px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+.content{
+    padding: 15px;
+    padding-bottom: 70px;
+}
+.hidden{
+    display: none;
+}
+
+.list{
+    width: 100%;
+    padding-top: 20px;
+}
+.small{
+    height: 40px;
+}
+
+.list-item {
+    cursor: pointer;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 2fr 1fr  1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background: aliceblue;
+    font-size: 15px;
+    padding: 23px;
+    line-height: 0px;
+    margin: 10px 0px;
+    border-radius: 14px;
+    box-shadow: 1px 1px 5px #0000004f;
+    transition: all 300ms;
+}
+
+.delivered{
+    background:#ff98009e;
+}
+
+.paid{
+    background:#81c784;
+}
+
+.money{
+    background:#64b5f6;
+}
+
+.stat{
+    width: 90%;
+    background-color: #607d8b14;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 18px;
+}
+.stat span{
+    font-size: 23px;
+}
+
+.list-item > .adate{
+    text-align: right;
+    grid-column: 3;
+}
+
+.list-item > .moreinfo{
+    width: 100%;
+    grid-row: 2;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-evenly;
+}
+.list-item > .list-item-actions{
+    grid-row: 3;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-evenly;
+}
+.deleteBack{
+    background: #607d8b14;
+    padding: 15px;
+}
+.notify {
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.error{
+    background-color: #f44336d6;
+}
+
+.sucess{
+    background-color: #4caf50e0;
+}
+ 
+
