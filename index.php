@@ -98,7 +98,6 @@ if(isset($_GET['url'])){
         </div>
     
     <script src="/js/menu.js"></script>
-    <script src="/js/materialize.js"></script>
     <script src="/js/main.js"></script>
 </body>
 </html>
